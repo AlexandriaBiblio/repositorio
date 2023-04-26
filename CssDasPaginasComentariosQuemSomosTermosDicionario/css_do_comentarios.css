@@ -54,13 +54,12 @@ li {
     grid-template-rows: 16% 16% 16% 16% 16% 16%;
 }
 
-#colunas {
-    grid-column: 1;
-    grid-row: 1/7;
-    display: flex;
+.categorias {
     flex-direction: column;
-    gap: 50px;
-    margin: 15px;
+    display: flex;
+  align-content: space-between;
+  grid-column: 1;
+  grid-row: 1/7;
 }
 
 #alexandria {

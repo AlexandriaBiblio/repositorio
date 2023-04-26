@@ -7,39 +7,42 @@
 body {
     background-color: #fff8cf;
 }
-header {
-    height: 100px;
+#header {
     width: 100%;
+    height: 100px;
+    background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+ul {
     display: flex;
-    background-color: #9bd8d4;
-    justify-content: space-between;
-    margin-left: 0px;
-    border-bottom: 0px;
+    gap: 50px;
+    color: black;
+}
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 0;
-   
+    align-content: space-between;
+}
+#logotipo {
+    grid-column: 1;
+}
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
 }
 
-#listadoheader{
-    display: flex;
-    align-items: center;
-}
-
-#listadoheader li {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 50px
-    
-    
-
-}
-#listadoheader li:hover{
-    background-color: #a63030;
-    text-decoration: none;
-}
 main {
     position: relative;
     display: flex;

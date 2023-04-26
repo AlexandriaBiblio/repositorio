@@ -1,4 +1,4 @@
-html, body{margin:0; padding:0;}
+html, body{margin:0; padding:0; background-color: #FFF8CF;}
 p{
     margin: 0;
 }
@@ -15,7 +15,13 @@ p{
     grid-column: 1;
 
 }
-
+.categorias {
+    flex-direction: column;
+    display: flex;
+  align-content: space-between;
+  margin-top: 16px;
+margin-left: 8px;
+}
 .links {
     display: grid;
     grid-column: 2;

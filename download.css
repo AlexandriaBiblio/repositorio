@@ -2,42 +2,40 @@
     margin: 0;
     border: 0;
 }
-.container{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 13vh 80vh 5vh;
-}
-
-header{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+#header {
+    width: 100%;
+    height: 100px;
     background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+ul {
     display: flex;
-    
-}
- 
-.links{
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 90%;
-    height: 30px;
-}
-
-.listalinks li{
-    list-style: none;
-    display: inline-block;
-    justify-content: space-between;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 15px;
+    gap: 50px;
     color: black;
 }
-
-.listalinks li:hover{
-    background-color: rgb(85, 156, 156);
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+#logotipo {
+    grid-column: 1;
+}
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
 }
 
 .login{
@@ -45,10 +43,6 @@ header{
     height: 100%;
 }
 
-.logotipo{
-    display: flex;
-    height: 100%;
-}
 
 main{
     grid-column-start: 1;
@@ -78,7 +72,13 @@ main{
     font-size: large;
     
 }
-
+.categorias {
+    flex-direction: column;
+    display: flex;
+  align-content: space-between;
+  margin-top: 16px;
+margin-left: 8px;
+}
 .titulo2{
     justify-content: center;
     display: flex;
@@ -102,6 +102,7 @@ main{
     display: flex;
     flex-direction: column;
     grid-column-end: 3fr;
+    height: 100vh;
 }
 
 .livros{

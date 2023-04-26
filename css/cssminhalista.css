@@ -7,26 +7,42 @@
 body {
     background-color: #FFF8CF;
 }
-
-header {
+#header {
     width: 100%;
-    height: 85px;
+    height: 100px;
     background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+ul {
     display: flex;
-    justify-content: space-between; 
-    border-bottom: 5px solid #4e9f8c;
+    gap: 50px;
+    color: black;
+}
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+#logotipo {
+    grid-column: 1;
+}
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
 }
 
-.logotipo {
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.logotipo:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
 
 #loginn:hover {
     -webkit-transform: scale(1.2);
@@ -34,9 +50,6 @@ header {
     transform: scale(1.3);
 }
 
-.links{
-   margin-top: 35px;
-   }
 
 a {
     text-decoration: none;
@@ -79,7 +92,13 @@ main {
     font-weight: bold
       
 }
-
+.categorias {
+    flex-direction: column;
+    display: flex;
+  align-content: space-between;
+  margin-top: 16px;
+margin-left: 8px;
+}
 #linhadotitulo {
     height: 15px;
     width: 375px;

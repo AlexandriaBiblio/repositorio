@@ -83,7 +83,9 @@ main {
 .categorias {
     flex-direction: column;
     display: flex;
-  align-content: space-between;
+     align-content: space-between;
+  margin-top: 16px;
+  margin-left: 8px;
 }
 .miolo {
     display: flex;

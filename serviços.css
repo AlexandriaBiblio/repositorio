@@ -11,21 +11,41 @@ body{
     background-color: #FFF8CF;
 }
 
-header{
-    background-color: #9BD8D4;
+#header {
     width: 100%;
-    height: 80px;
-    text-transform: uppercase;
+    height: 100px;
+    background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+ul {
     display: flex;
+    gap: 50px;
+    color: black;
 }
-
-.links{
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 90%;
-    height: 30px;
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+#logotipo {
+    grid-column: 1;
+}
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
+}
 .listalinks li{
     list-style: none;
     display: inline-block;
@@ -41,11 +61,6 @@ header{
     background-color: rgb(85, 156, 156);
 }
 
-.logotipo{
-    width: 8%;
-    height: 100%;
-    background-color: white;
-}
 
 .login{
     width: 8%;
@@ -98,6 +113,8 @@ main{
 
 .logo{
     display: flex;
-    margin-left: 200px;
+    width: 50%;
 }
-
+.texto{
+    width: 50%;
+}
