@@ -1,4 +1,4 @@
-html, body{margin:0; padding:0;}
+html, body{margin:0; padding:0; background-color: #FFF8CF;}
 p{
     margin: 0;
 }
@@ -78,13 +78,13 @@ li {
 }
 #caixatexto {
     display:grid;
-    grid-row: 3/4;
+    grid-row: 4/4;
     grid-column: 2/5;
-    font-size: 40px;
+    font-size: 30px;
     margin-top:25px ;
     display:flex;
     justify-content: center;
-    font-family: 'Taviraj', serif;
+    font-family: 'Zen Old Mincho', serif;
 }
 
 #logotipo2 {
