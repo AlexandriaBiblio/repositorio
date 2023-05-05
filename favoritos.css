@@ -99,11 +99,10 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 90px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20% 20%;
     grid-template-rows: 30% 30% 30%;
     margin-top: 150px;
-    margin-left: 210px;
     
 }

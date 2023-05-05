@@ -43,12 +43,12 @@ li {
     grid-column: 1;
 }
 #pesquisados {
-    width: 800px;
+    width: 750px;
     height: 50px;
     background-color: #D9D9D9;
     border-radius: 75px;
     position: relative;
-    left: 250px;
+    left: 220px;
     margin-top: 30px;
     font-size: x-large;
     padding-left: 16px;
@@ -66,8 +66,6 @@ li {
     display: inline-block;
     padding: 20px;
     border-radius: 50px
-    
-    
 
 }
 #listadoheader li:hover{
@@ -107,8 +105,11 @@ main {
 .categorias {
     flex-direction: column;
     display: flex;
-  align-content: space-between;
+    align-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
 }
+
 .miolo {
     display: flex;
     justify-content: center;
@@ -147,15 +148,15 @@ main {
 }
 #LogoDoTitulo{
     margin-top: 70px;
-    margin-left: 28px;
+    margin-left: 50px;
 
 }
 .LinhaDoAlexandria{
     height: 15px;
-    width: 350px;
+    width: 360px;
     background-color: #62b29f;   
     position: absolute;
-    left: 375px;
+    left: 330px;
     top: 100px;
     margin-top: 55px;
 
